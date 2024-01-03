@@ -94,7 +94,7 @@ function isIsoscelesTriangle(a, b, c) {
   const condition3 = a === b || a === c || b === c;
   if (condition1 || condition2) return false;
   if (condition3) return true;
-  return false;;
+  return false;
 }
 
 /**
@@ -169,7 +169,7 @@ function isPalindrome(str) {
  *  'qwerty', 'p'     => -1
  */
 function getIndexOf(str, letter) {
-    for (let j = 0; j < str.length; j += 1) {
+  for (let j = 0; j < str.length; j += 1) {
     if (str[j] === letter) return j;
   }
   return '-1';
